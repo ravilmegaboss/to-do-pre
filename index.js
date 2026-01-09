@@ -1,5 +1,4 @@
 const items = [
-    "Сдать несчастный 5-й проект",
 ];
 const listElement = document.querySelector(".to-do__list");
 const formElement = document.querySelector(".to-do__form");
@@ -76,4 +75,5 @@ formElement.addEventListener('submit', function(event) { //выгрузка в �
         saveTasks(currItems); 
         inputElement.value = '';
     } 
+
 });
